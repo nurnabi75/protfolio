@@ -114,9 +114,12 @@ nav .menu a {
 
 /*about section css*/
 
-#about {
+#about,
+#skills,
+#resume {
   padding-top: 130px;
 }
+
 #about .about-container {
   width: 70%;
   max-width: 1140px;
@@ -141,9 +144,6 @@ nav .menu a {
 
 /*skills section*/
 
-#skills {
-  padding-top: 130px;
-}
 #skills .skills-container {
   width: 70%;
   max-width: 1140px;
@@ -171,4 +171,41 @@ nav .menu a {
   font-size: 15px;
   color: #757575;
   line-height: 28px;
+}
+/* resume section css*/
+#resume .resume-container {
+  width: 70%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+.resume-container .section-title {
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-container hr {
+  margin: 30px 0;
+}
+.resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+.resume-card .card-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+.resume-card .card-info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.resume-card .card-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
 }
